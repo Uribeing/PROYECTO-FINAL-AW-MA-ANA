@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
+    font-family: "Gideon Roman", serif;
+
+}
+
+.gideon-roman-regular {
+    font-family: "Gideon Roman", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --amarillo: rgb(255, 230, 0);
+    --negro: rgb(0, 0, 0);
+}
+
+*::selection {
+    color: rgb(228, 202, 202);
+    background-color: darkred;
+}
+
+.sesion-fotos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1.875rem;
+    padding-left: 5.625rem;
+}
+
+/*AUTOSCROLL*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--amarillo);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: darkred;
+}
+
+
+.sesion-fotos img {
+    transition: all 0.5s;
+    padding-right: 1.875rem;
+    padding-left: none;
+
+
+}
+
+.sesion-fotos img:hover {
+    transform: scale(0.9);
+}
+
+
+/*ORDEN*/
+
+.video1 {
+    padding-top: 1.25rem;
+    padding-left: 21.875rem;
+    padding-right: 21.875rem;
+}
+
+.video2 {
+    padding-top: 1.25rem;
+    padding-left: 21.875rem;
+    padding-right: 21.875rem;
+}
+
+.video3 {
+    box-sizing: border-box;
+}
+
+h2 {
+    background-color: black;
+    padding-top: 1.25rem;
+    color: var(--amarillo);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+p {
+    background-color: black;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1,
+h5 {
+    background-color: black;
+    color: var(--amarillo);
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+
+}
+
+h5 {
+    margin-bottom: 1.25rem;
+}

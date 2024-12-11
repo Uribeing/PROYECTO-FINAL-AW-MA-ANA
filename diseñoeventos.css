@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  font-family: "Gideon Roman", serif;
+
+
+}
+
+.gideon-roman-regular {
+  font-family: "Gideon Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*::selection {
+  color: rgb(228, 202, 202);
+  background-color: darkred;
+}
+
+:root {
+  --amarillo: rgb(255, 230, 0);
+  --negro: rgb(0, 0, 0);
+}
+
+/*Scrollbar w3bschool*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: var(--amarillo);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: darkred;
+}
+
+/*TEXTO*/
+
+h1 {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+  background-color: black;
+  color: var(--amarillo);
+}
+
+h3 {
+  padding-top: 1.25rem;
+  color: var(--amarillo);
+  padding-bottom: .625rem;
+}
+
+h2 {
+  padding-top: 1.875rem;
+  color: var(--amarillo);
+  margin-bottom: 1.25rem;
+}
+
+p {
+  padding-top: .625rem;
+  background-color: white;
+  margin-left: 12.5rem;
+  margin-right: 12.5rem;
+  padding-bottom: .625rem;
+  border-radius: 1.25rem;
+  box-shadow: .1875rem .125rem .0625rem black;
+  margin-top: 1.25rem;
+}
+
+.piuw {
+  display: flex;
+  gap: 6.25rem;
+
+}
+
+.Maneskin,
+.Broncano,
+.listas {
+  background-color: darkred;
+}
+
+.listas {
+  background-color: darkred;
+  color: var(--amarillo);
+
+
+
+}
+
+.porfa {
+  padding-bottom: 1.875rem;
+  width: 33%;
+  float: left;
+  text-align: center;
+  gap: 31.25rem;
+  padding-left: 18.75rem;
+}
